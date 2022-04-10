@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="shortcut icon" type="IMAGENES/x-icon" href="rick.jpg"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Captura de numeros</title>
+</head>
+<body>
+     <h1 style="color: rgb(224, 70, 186); text-align: center;">Operaciones</h1>
+    <form id="form">
+       
+       Ingrese el primer número<input type="number" id="num1" placeholder="Ingrese un número positivo">&nbsp;&nbsp;&nbsp;
+       Ingrese el segundo número<input type="number" id="num2" placeholder="Ingrese un número positivo">
+      <nav class="carta">
+    
+          <table class="tabla">
+          <tr> 
+              <td><img src="mayor-que-el-simbolo.png">
+                <p class="center"> Hallar el número mayor</p>
+                  <a href="#"><button id="btn" onclick="mayor()">Calcular</button></a></td><br>
+
+              <td><img src="igual.png">
+                <p class="center">Determinar si los dos números ingresados son iguales</p>
+                <a href="#"><button id="btn" onclick="igual()">Calcular</button></a></td>
+          </tr>
+          <tr>
+              <td><img src="de-igual-a-igual.png">
+                <p class="center">Intercambiar los valores de los números</p>
+                  <a href="#"><button id="btn" onclick="cambiar()">Calcular</button></a></td><br>
+
+              <td><img src="matematicas.png">
+                <p class="center">Sumar los dos números</p>
+                <a href="#"><button id="btn" onclick="sumar()">Calcular</button></a></td>
+          </tr>
+            </table>
+      </nav> 
+    </form>
+
+      <script src="script.js"></script>
+</body>
+</html>
